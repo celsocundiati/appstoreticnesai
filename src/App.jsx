@@ -11,7 +11,7 @@ import Footer from './componentes/footer/footer';
 function App() {
   return (
     // Dev: Celso
-    <main className="w-full mx-auto">
+    <main className="w-full mx-auto bg-slate-50">
       
       <Header navLinks={navLinks} />
       
