@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import Header from './componentes/header/header';
 import Home from './componentes/home/home';
+import {navLinks} from "./data/db.json";
 
 
 function App() {

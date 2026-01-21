@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {apps, categories, featuredApps, navLinks} from "../../data/db.json";
+import {apps, categories, featuredApps} from "../../data/db.json";
 import Hero from "./hero/hero";
 import Categories from "./categorias/categoria";
 import AppSection from "./appsection/appsection";
