@@ -1,7 +1,7 @@
 
 export default function Header({navLinks}) {
   return (
-    <header className="bg-white border-b border-black/10 z-50 fixed w-full py-1">
+    <header className="bg-white border-b border-black/10 z-50 fixed w-full px-6 py-1">
       <div className="max-w-7xl mx-auto py-4 flex items-center gap-6">
         
         {/* Logo */}
