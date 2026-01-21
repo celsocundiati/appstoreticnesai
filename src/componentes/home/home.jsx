@@ -1,27 +1,36 @@
 import { useState } from 'react';
 import {apps, categories, featuredApps} from "../../data/db.json";
-import Hero from "./hero/hero";
+import Header from '../header/header';
+import Footer from '../footer/footer';
 import HeroDois from "./hero02/hero";
 import Categories from "./categorias/categoria";
 import AppSection from "./appsection/appsection";
 import HeroSection from './hero/herosection';
+import {navLinks} from "../../data/db.json";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto px-6 py-8">
+    <section>
       
-      <HeroSection/>
+      <Header navLinks={navLinks} />
 
-      <Categories categories={categories} />
+      <section className="max-w-7xl mx-auto px-6 py-8">
 
-      <AppSection title="🔥 Em Alta" apps={apps} />
+        <HeroSection/>
 
-      <AppSection title="✨ Lançamentos Recentes" apps={apps} />
-      
-      <HeroDois app={featuredApps[3]} />
+        <Categories categories={categories} />
 
+        <AppSection title="🔥 Em Alta" apps={apps} />
 
-    </main>
+        <AppSection title="✨ Lançamentos Recentes" apps={apps} />
+        
+        <HeroDois app={featuredApps[3]} />
+
+      </section>
+
+      <Footer />
+
+    </section>
   );
 }
 

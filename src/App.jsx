@@ -1,10 +1,7 @@
-
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './componentes/header/header';
 import Home from './componentes/home/home';
-import {navLinks} from "./data/db.json";
-import Footer from './componentes/footer/footer';
+import Publicar from './componentes/publicarapp/publicar';
+import Perfil from './componentes/meuperfil/perfil';
 
 
 function App() {
@@ -14,14 +11,12 @@ function App() {
       
       <Router>
 
-        <Header navLinks={navLinks} />
-        <Routes>
-          <Route path='/' index element={<Home />} />
-          
-          
+          <Routes>
+            <Route path='/' index element={<Home />} />
+            <Route path='/publicar' index element={<Publicar />} />
+            <Route path='/perfil' index element={<Perfil />} />
 
-        </Routes> 
-        <Footer />
+          </Routes> 
 
       </Router>
       
