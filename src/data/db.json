@@ -2,16 +2,16 @@
   "featuredApps" : [
     {
       "id": 1,
-      "nome": "CodeLab Junior",
-      "descricao": "Aprenda programação de forma divertida e visual",
-      "tag": "Em Destaque",
+      "tag": "Finanças & IA",
+      "nome": "OGE-AO",
+      "descricao": "Análise inteligente do Orçamento Geral do Estado de Angola.",
       "gradient": "from-blue-500 to-purple-600"
     },
     {
       "id": 2,
-      "nome": "CodeLab Junior",
-      "descricao": "Aprenda programação de forma divertida e visual",
-      "tag": "Em Destaque",
+      "tag": "Educação",
+      "nome": "TICNES Expansion",
+      "descricao": "Planeamento estratégico da expansão de centros tecnológicos.",
       "gradient": "from-blue-500 to-purple-600"
     },
     {

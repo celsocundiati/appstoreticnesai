@@ -1,4 +1,6 @@
 
+import { NavLink } from "react-router-dom";
+
 export default function Header({navLinks}) {
   return (
     <header className="bg-white border-b border-black/10 z-50 fixed w-full px-6 py-1">
@@ -22,17 +24,24 @@ export default function Header({navLinks}) {
         </div>
 
         {/* Navigation */}
+
         <nav className="flex items-center gap-6">
           {navLinks.map(link => (
-            <a
+            <NavLink
               key={link.id}
-              href={link.href}
-              className="flex items-center gap-1 text-gray-700 font-medium hover:text-blue-600 transition"
+              to={link.href}
+              className={({ isActive }) =>
+                `flex items-center gap-1 font-medium transition
+                ${isActive
+                  ? "text-blue-600 border-b-2 border-blue-600"
+                  : "text-gray-700 hover:text-blue-600"}`
+              }
             >
               {link.label}
-            </a>
+            </NavLink>
           ))}
         </nav>
+
       </div>
     </header>
   );
