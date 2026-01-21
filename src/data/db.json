@@ -6,6 +6,26 @@
       "descricao": "Aprenda programação de forma divertida e visual",
       "tag": "Em Destaque",
       "gradient": "from-blue-500 to-purple-600"
+    },
+    {
+      "id": 2,
+      "nome": "CodeLab Junior",
+      "descricao": "Aprenda programação de forma divertida e visual",
+      "tag": "Em Destaque",
+      "gradient": "from-blue-500 to-purple-600"
+    },
+    {
+      "id": 3,
+      "nome": "CodeLab Junior",
+      "descricao": "Aprenda programação de forma divertida e visual",
+      "tag": "Em Destaque",
+      "gradient": "from-blue-500 to-purple-600"
+    },
+    {
+      "id": 4,
+      "nome": "Você é desenvolvedor?",
+      "descricao": "Publique seus aplicativos web na TicnesStore e alcance milhares de usuários interessados em educação e produtividade.",
+      "gradient": "from-blue-500 to-purple-600"
     }
   ],
 
@@ -39,6 +59,7 @@
    "apps" : [
     {
       "id": 1,
+      "icon": "💻",
       "nome": "CodeLab Junior",
       "empresa": "Programadores NextGen",
       "rating": 4.9,
@@ -49,6 +70,7 @@
     },
     {
       "id": 2,
+      "icon": "🎯",
       "nome": "Academia QuizBuilder",
       "empresa": "Soluções EduTech",
       "rating": 4.9,
@@ -59,6 +81,7 @@
     },
     {
       "id": 3,
+      "icon": "📐",
       "nome": "MathMaster Pro",
       "empresa": "Soluções EduTech",
       "rating": 4.8,
@@ -66,6 +89,39 @@
       "downloads": "145K",
       "preco": "Gratuito",
       "descricao": "Aprenda matemática de forma interativa"
+    },
+    {
+      "id": 4,
+      "icon": "📝",
+      "nome": "NoteSync Pro",
+      "empresa": "Laboratórios de Produtividade",
+      "rating": 4.8,
+      "reviews": "2K",
+      "downloads": "134K",
+      "preco": "R$ 7,99",
+      "descricao": "Anotações sincronizadas com markdown e organização inteligente"
+    },
+    {
+      "id": 5,
+      "icon": "⏱️",
+      "nome": "FocusTimer Plus",
+      "empresa": "Aplicativos Zenith",
+      "rating": 4.7,
+      "reviews": "2K",
+      "downloads": "112K",
+      "preco": "Gratuito",
+      "descricao": "Técnica pomodoro com estatísticas e bloqueio de distrações"
+    },
+    {
+      "id": 6,
+      "icon": "✅",
+      "nome": "Gerenciador de Fluxo de Tarefas",
+      "empresa": "Laboratórios de Produtividade",
+      "rating": 4.6,
+      "reviews": "2K",
+      "downloads": "49K",
+      "preco": "R$ 9,99",
+      "descricao": "Gerencie tarefas e projetos com eficiência máxima"
     }
   ],
 
@@ -73,5 +129,29 @@
     { "id": 1, "label": "Início", "href": "/" },
     { "id": 2, "label": "Publicar App", "href": "/publicar"},
     { "id": 3, "label": "Perfil", "href": "/perfil"}
-  ]
+  ],
+
+  "footerData" : {
+    "brand": {
+      "name": "TicnesStore",
+      "description":
+        "Sua loja de aplicativos web para educação e produtividade."
+    },
+    "sections": [
+      {
+        "title": "Descobrir",
+        "links": ["Educação", "Produtividade", "Ferramentas"]
+      },
+      {
+        "title": "Desenvolvedores",
+        "links": ["Publicar App", "Documentação", "API"]
+      },
+      {
+        "title": "Suporte",
+        "links": ["Central de Ajuda", "Contato", "Termos de Uso"]
+      }
+    ],
+    "copyright": "© TicnesStore 2026. Todos os direitos reservados."
+  }
+
 }

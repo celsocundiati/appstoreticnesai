@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Header from './componentes/header/header';
 import Home from './componentes/home/home';
 import {navLinks} from "./data/db.json";
+import Footer from './componentes/footer/footer';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Header navLinks={navLinks} />
       
       <Home />
+      <Footer />
+      
     
     </main>
   );
