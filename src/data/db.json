@@ -1,0 +1,77 @@
+{
+  "featuredApps" : [
+    {
+      "id": 1,
+      "nome": "CodeLab Junior",
+      "descricao": "Aprenda programação de forma divertida e visual",
+      "tag": "Em Destaque",
+      "gradient": "from-blue-500 to-purple-600"
+    }
+  ],
+
+  "categories" : [
+    {
+      "id": 1,
+      "nome": "Educação",
+      "icon": "📘",
+      "gradient": "from-sky-400 to-blue-500"
+    },
+    {
+      "id": 2,
+      "nome": "Produtividade",
+      "icon": "💼",
+      "gradient": "from-purple-400 to-pink-500"
+    },
+    {
+      "id": 3,
+      "nome": "Ferramentas",
+      "icon": "⚙️",
+      "gradient": "from-orange-400 to-red-500"
+    },
+    {
+      "id": 4,
+      "nome": "Utilidades",
+      "icon": "⚡",
+      "gradient": "from-green-400 to-emerald-500"
+    }
+  ],
+
+   "apps" : [
+    {
+      "id": 1,
+      "nome": "CodeLab Junior",
+      "empresa": "Programadores NextGen",
+      "rating": 4.9,
+      "reviews": "4K",
+      "downloads": "287K",
+      "preco": "Gratuito",
+      "descricao": "Aprenda programação de forma divertida e visual"
+    },
+    {
+      "id": 2,
+      "nome": "Academia QuizBuilder",
+      "empresa": "Soluções EduTech",
+      "rating": 4.9,
+      "reviews": "3K",
+      "downloads": "203K",
+      "preco": "R$ 4,99",
+      "descricao": "Crie e compartilhe quizzes educacionais personalizados"
+    },
+    {
+      "id": 3,
+      "nome": "MathMaster Pro",
+      "empresa": "Soluções EduTech",
+      "rating": 4.8,
+      "reviews": "3K",
+      "downloads": "145K",
+      "preco": "Gratuito",
+      "descricao": "Aprenda matemática de forma interativa"
+    }
+  ],
+
+  "navLinks" : [
+    { "id": 1, "label": "Início", "href": "/" },
+    { "id": 2, "label": "Publicar App", "href": "/publicar"},
+    { "id": 3, "label": "Perfil", "href": "/perfil"}
+  ]
+}
