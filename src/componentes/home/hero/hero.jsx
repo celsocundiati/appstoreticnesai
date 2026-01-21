@@ -1,7 +1,7 @@
 export default function Hero({ app }) {
   return (
     <section
-      className={`rounded-3xl p-10 text-white bg-linear-to-r ${app.gradient}`}
+      className={`rounded-3xl mt-25 p-10 text-white bg-linear-to-r ${app.gradient}`}
     >
       <span className="bg-white/20 px-4 py-1 rounded-full text-sm">
         ✨ {app.tag}

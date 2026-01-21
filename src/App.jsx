@@ -10,7 +10,7 @@ import {navLinks} from "./data/db.json";
 function App() {
   return (
     // Dev: Celso
-    <main className="max-w-7xl mx-auto px-6 py-8">
+    <main className="w-full mx-auto">
       
       <Header navLinks={navLinks} />
       
