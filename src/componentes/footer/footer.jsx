@@ -2,7 +2,7 @@ import { footerData } from "../../data/db.json";
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-slate-900 mt-20">
+    <footer className="bg-white text-slate-900 mt-20 z-20 border-t border-black/10">
       <div className="max-w-7xl mx-auto px-6 py-14 grid md:grid-cols-4 gap-10">
         
         {/* Brand */}
@@ -36,8 +36,8 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-6 py-6 text-sm text-slate-400">
+      <div className="border-t border-slate-300">
+        <div className="max-w-full text-center mx-auto px-6 py-6 text-sm text-slate-400">
           {footerData.copyright}
         </div>
       </div>
