@@ -21,7 +21,7 @@ export default function AppCard({ app }) {
         {app.descricao}
       </p>
 
-      <div className="flex justify-between items-center mt-4 text-sm">
+      <div className="flex justify-between items-center mt-4 text-sm border-t border-black/5 pt-1.5">
         <span className="flex gap-1.5"><Download size={18} /> {app.downloads}</span>
         <span
           className={`font-semibold ${

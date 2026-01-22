@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Hero({ app }) {
   return (
     <section
@@ -9,9 +11,10 @@ export default function Hero({ app }) {
         {app.descricao}
       </p>
 
-      <button className="mt-8 bg-white text-blue-600 font-semibold px-6 py-3 rounded-xl">
-        Publicar Meu App
-      </button>
+      <Link to="/publicar" className="mt-8 bg-white text-blue-600 font-semibold px-6 py-3 rounded-xl cursor-pointer">
+          Publicar Meu App
+      </Link>
+
     </section>
   );
 }

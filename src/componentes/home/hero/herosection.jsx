@@ -20,14 +20,14 @@ export default function HeroSection() {
       {/* Botões laterais */}
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/30 backdrop-blur p-3 rounded-full text-white hover:bg-white/50 transition"
+        className="absolute left-4 top-1/2 cursor-pointer -translate-y-1/2 bg-white/30 backdrop-blur p-3 rounded-full text-white hover:bg-white/50 transition"
       >
         ‹
       </button>
 
       <button
         onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/30 backdrop-blur p-3 rounded-full text-white hover:bg-white/50 transition"
+        className="absolute right-4 top-1/2 cursor-pointer -translate-y-1/2 bg-white/30 backdrop-blur p-3 rounded-full text-white hover:bg-white/50 transition"
       >
         ›
       </button>

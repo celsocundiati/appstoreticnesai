@@ -65,6 +65,8 @@
       "rating": 4.9,
       "reviews": "4K",
       "downloads": "287K",
+      "transferido": true,
+      "favorito": false,
       "preco": "Gratuito",
       "descricao": "Aprenda programação de forma divertida e visual"
     },
@@ -76,6 +78,8 @@
       "rating": 4.9,
       "reviews": "3K",
       "downloads": "203K",
+      "transferido": false,
+      "favorito": true,
       "preco": "R$ 4,99",
       "descricao": "Crie e compartilhe quizzes educacionais personalizados"
     },
@@ -87,6 +91,8 @@
       "rating": 4.8,
       "reviews": "3K",
       "downloads": "145K",
+      "transferido": false,
+      "favorito": false,
       "preco": "Gratuito",
       "descricao": "Aprenda matemática de forma interativa"
     },
@@ -98,6 +104,8 @@
       "rating": 4.8,
       "reviews": "2K",
       "downloads": "134K",
+      "transferido": true,
+      "favorito": false,
       "preco": "R$ 7,99",
       "descricao": "Anotações sincronizadas com markdown e organização inteligente"
     },
@@ -109,6 +117,8 @@
       "rating": 4.7,
       "reviews": "2K",
       "downloads": "112K",
+      "transferido": false,
+      "favorito": false,
       "preco": "Gratuito",
       "descricao": "Técnica pomodoro com estatísticas e bloqueio de distrações"
     },
@@ -120,6 +130,8 @@
       "rating": 4.6,
       "reviews": "2K",
       "downloads": "49K",
+      "transferido": true,
+      "favorito": true,
       "preco": "R$ 9,99",
       "descricao": "Gerencie tarefas e projetos com eficiência máxima"
     }

@@ -1,5 +1,5 @@
 
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Header({navLinks}) {
   return (
@@ -8,9 +8,9 @@ export default function Header({navLinks}) {
         
         {/* Logo */}
         <div className="flex items-center gap-2 font-bold text-lg">
-          <div className="w-9 h-9 flex items-center justify-center rounded-full bg-linear-to-r from-blue-500 to-purple-600 text-white">
-            T
-          </div>
+          <Link to="/" className="w-9 h-9 flex items-center justify-center rounded-full bg-linear-to-r from-blue-500 to-purple-600 text-white">
+              T
+          </Link>
           <span>TicnesStore</span>
         </div>
 
