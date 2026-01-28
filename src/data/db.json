@@ -56,7 +56,6 @@
     }
   ],
 
-<<<<<<< HEAD
   "apps": [
     {
       "id": 1,
@@ -273,9 +272,6 @@
   ],
 
    "appsss" : [
-=======
-   "apps" : [
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     {
       "id": 1,
       "icon": "💻",
@@ -283,7 +279,6 @@
       "empresa": "Programadores NextGen",
       "rating": 4.9,
       "reviews": "4K",
-<<<<<<< HEAD
       "downloads": "287Kb",
       "downloader": "287 000+",
       "avaliacoes": "4 102",
@@ -293,13 +288,6 @@
       "categoria": "Educação",
       "versao": "7.0.6",
       "atualizacao": "11/06/2025"
-=======
-      "downloads": "287K",
-      "transferido": true,
-      "favorito": false,
-      "preco": "Gratuito",
-      "descricao": "Aprenda programação de forma divertida e visual"
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     },
     {
       "id": 2,
@@ -308,7 +296,6 @@
       "empresa": "Soluções EduTech",
       "rating": 4.9,
       "reviews": "3K",
-<<<<<<< HEAD
       "downloads": "203Kb",
       "downloader": "2 030+",
       "avaliacoes": "2 030",
@@ -318,13 +305,6 @@
       "categoria": "Utilidades",
       "versao": "3.1.0",
       "atualizacao": "15/08/2025"
-=======
-      "downloads": "203K",
-      "transferido": false,
-      "favorito": true,
-      "preco": "R$ 4,99",
-      "descricao": "Crie e compartilhe quizzes educacionais personalizados"
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     },
     {
       "id": 3,
@@ -333,7 +313,6 @@
       "empresa": "Soluções EduTech",
       "rating": 4.8,
       "reviews": "3K",
-<<<<<<< HEAD
       "downloads": "145Kb",
       "downloader": "1 550+",
       "avaliacoes": "1 457",
@@ -343,13 +322,6 @@
       "categoria": "Educação",
       "versao": "7.0.1",
       "atualizacao": "10/07/2025"
-=======
-      "downloads": "145K",
-      "transferido": false,
-      "favorito": false,
-      "preco": "Gratuito",
-      "descricao": "Aprenda matemática de forma interativa"
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     },
     {
       "id": 4,
@@ -358,7 +330,6 @@
       "empresa": "Laboratórios de Produtividade",
       "rating": 4.8,
       "reviews": "2K",
-<<<<<<< HEAD
       "downloads": "134Kb",
       "downloader": "13 000+",
       "avaliacoes": "13 400",
@@ -368,13 +339,6 @@
       "categoria": "Educação",
       "versao": "3.4.1",
       "atualizacao": "12/11/2025"
-=======
-      "downloads": "134K",
-      "transferido": true,
-      "favorito": false,
-      "preco": "R$ 7,99",
-      "descricao": "Anotações sincronizadas com markdown e organização inteligente"
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     },
     {
       "id": 5,
@@ -383,7 +347,6 @@
       "empresa": "Aplicativos Zenith",
       "rating": 4.7,
       "reviews": "2K",
-<<<<<<< HEAD
       "downloads": "112Kb",
       "downloader": "1 200+",
       "avaliacoes": "1 121",
@@ -393,13 +356,6 @@
       "categoria": "Produtividade",
       "versao": "1.2.1",
       "atualizacao": "12/12/2025"
-=======
-      "downloads": "112K",
-      "transferido": false,
-      "favorito": false,
-      "preco": "Gratuito",
-      "descricao": "Técnica pomodoro com estatísticas e bloqueio de distrações"
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     },
     {
       "id": 6,
@@ -408,7 +364,6 @@
       "empresa": "Laboratórios de Produtividade",
       "rating": 4.6,
       "reviews": "2K",
-<<<<<<< HEAD
       "downloads": "49Kb",
       "downloader": "4 009+",
       "avaliacoes": "4 900",
@@ -418,13 +373,6 @@
       "categoria": "Ferramentas",
       "versao": "4.5.0",
       "atualizacao": "12/01/2026"
-=======
-      "downloads": "49K",
-      "transferido": true,
-      "favorito": true,
-      "preco": "R$ 9,99",
-      "descricao": "Gerencie tarefas e projetos com eficiência máxima"
->>>>>>> 1e5355fe7cd8a1568412e774fafe690f0bab7419
     }
   ],
 
